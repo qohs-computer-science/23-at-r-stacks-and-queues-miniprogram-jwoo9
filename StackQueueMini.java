@@ -68,6 +68,8 @@ class StackQueueMini {
     System.out.println(evenQ);
     System.out.println("Odd Queue:");
     System.out.println(oddQ);
+
+    //rearrange myQ
     while (!evenQ.isEmpty())
       myQ.add(evenQ.remove());
     while (!oddQ.isEmpty())
